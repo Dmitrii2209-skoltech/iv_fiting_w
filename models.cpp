@@ -1489,7 +1489,7 @@ void QDeformedMHCFrac::set_def_parameters()
 	this->x0_min = 0.0;
 	this->lambda_min = 0.;
 	this->A_min = 0.;
-	this->alpha_min = 1.;
+	this->alpha_min = 0.;
 
 	this->xp_max = 0.99;
 	this->xn_max = 0.99;
