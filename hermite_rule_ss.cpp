@@ -44,7 +44,7 @@ int ma_in(int N, int option)
 	string output = "hg_pols";
 
 	cout << "\n";
-	timestamp();
+	//timestamp();
 	cout << "\n";
 	cout << "HERMITE_RULE\n";
 	cout << "  C++ version\n";
@@ -99,7 +99,7 @@ int ma_in(int N, int option)
 	cout << "  Normal end of execution.\n";
 
 	cout << "\n";
-	timestamp();
+	//timestamp();
 
 	return 0;
 }
@@ -1222,7 +1222,7 @@ void timestamp()
 
 	now = std::time(NULL);
 	tm_ptr = new struct std::tm();
-	localtime_s(tm_ptr, &now);
+	//localtime_s(tm_ptr, &now);
 
 	std::strftime(time_buffer, TIME_SIZE, "%d %B %Y %I:%M:%S %p", tm_ptr);
 
